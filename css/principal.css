@@ -77,56 +77,7 @@ p.descricao-centralizado {
 	margin: auto;
 }
 
-@media screen and (max-width: 554px){
-	.img-carousel img {
-		display: none;
-	}
-
-	figure.img-bem-vindo {
-		display: none;
-	}
-
-	.img-bem-vindo img{
-		display: none;
-	}
-
-	.brand-logo {
-		display: none;
-	}
-
-	.carousel .bangle {
-		display: none;
-	}
-}
-
-@media screen and (max-width: 67.3125em) {
-
-	.row .col.s6.texto-alinhado {
-		text-align: justify;
-		padding-right: 5em;
-	}
-
-}
-
-@media screen and (max-width: 71.5em) {
-
-	figure.img-carousel {
-		left: 0;
-		margin: 0 auto;
-	}
-
-	figure.img-bem-vindo {
-		left: 0;
-		margin: 0 auto;
-	  bottom: -79px;
-	}
-
-	.row .col.s6.texto-alinhado {
-		padding-right: 7em;
-	}
-
-}
-
+/*Menu*/
 .topo {
 	background-color: #fff;
 }

@@ -1,0 +1,176 @@
+@media (min-width: 79.3125em) and (max-width: 100em) {
+
+  .mobile-s {
+  display: none;
+  }
+
+}
+
+@media (min-width: 40.875em) and (max-width: 79.3125em){
+
+	.mobile-s {
+	display: none;
+	}
+
+  figure.img-carousel {
+		left: 0;
+		margin: 0 auto;
+	}
+
+	figure.img-bem-vindo {
+		left: 0;
+		margin: 0 auto;
+		bottom: -79px;
+	}
+
+	.row .col.s6.texto-alinhado {
+		padding-right: 7em;
+	}
+
+}
+
+@media (min-width: 0) and (max-width: 40.875em){
+
+	.carousel.carousel-slider .carousel-item .titulo-carousel, .descricao-carousel {
+		float: none;
+    margin-left: .5em;
+    margin-right: .5em;
+	}
+
+	.apresentacao .row,
+  .welcome .row,
+	.brand-logo span,
+	.nav-wrapper.topo .brand-logo,
+	.carousel .bangle {
+		display: none;
+	}
+
+  .apresentacao {
+      height: auto;
+  }
+
+	.carousel-fixed-item .btn-veja-mais {
+		top: 0;
+		left: 0;
+	}
+
+	section .carousel .indicators {
+		left: 0;
+		bottom: 0;
+	}
+
+	.carousel.carousel-slider .carousel-item p.descricao-mobile-s {
+		margin: 1em;
+	}
+
+  .container.welcome {
+    height: auto;
+  }
+
+	.welcome .row .col.s6.texto-alinhado {
+		padding-left: 0;
+	}
+
+  .welcome .btn-bem-vindo {
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    margin-bottom: 1em;
+  }
+
+  .descricao-bem-vindo {
+    padding: 0 1.5em;
+    text-align: justify;
+  }
+
+  .descricao-barra-horizontal {
+    float: none;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+
+  .barra-horizontal {
+    height: auto;
+    font-size: 118%;
+    padding: 1em;
+  }
+
+  .btn-barra-horizontal {
+    left: 50%;
+    margin-left: -50px;
+    float: none;
+  }
+
+  .portfolio {
+    height: auto;
+  }
+
+  .portfolio p {
+    padding-bottom: 3em;
+  }
+
+  .newsletter .descricao-barra-horizontal {
+    padding-bottom: 2em;
+}
+}
+ /* 592px */
+@media (min-width: 41em) {
+
+	.titulo-mobile-s, .descricao-mobile-s, .btn-mobile {
+		display: none;
+	}
+
+	 } /* 656px */
+@media (min-width: 47em) {
+
+	.titulo-mobile-s, .descricao-mobile-s, .btn-mobile {
+		display: none;
+	}
+
+	/*.btn-veja-mais {
+		top: -6em;
+		left: 14.2em;
+	}
+
+	.carousel .indicators {
+		left: 14em;
+		bottom: -18em;
+	}*/
+
+	 } /* 752px */
+@media (min-width: 68em) {
+
+	.titulo-mobile-s, .descricao-mobile-s, .btn-mobile {
+		display: none;
+	}
+
+	 } /* 1088px */
+@media (min-width: 79.3125em) {
+
+	.titulo-mobile-s, .descricao-mobile-s, .btn-mobile {
+		display: none;
+	}
+
+	/*figure.img-carousel {
+		left: 0;
+		margin: 0 auto;
+	}
+
+	figure.img-bem-vindo {
+		left: 0;
+		margin: 0 auto;
+		bottom: -79px;
+	}
+
+	.row .col.s6.texto-alinhado {
+		padding-right: 7em;
+	}*/
+
+ } /* 1312px */
+@media (min-width: 100em) {
+
+	.mobile-s {
+		display: none;
+	}
+
+} /* 1600px */
