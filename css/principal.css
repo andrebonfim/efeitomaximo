@@ -104,8 +104,9 @@ p.descricao-centralizado {
 	padding-right: 2em;
 }
 
-.social-topo {
+nav ul .social-topo a {
 	display: inline-block;
+	font-size: 1.5em;
 }
 
 #nav-mobile a:hover {
@@ -119,11 +120,6 @@ p.descricao-centralizado {
 #nav-mobile .social-topo a:hover {
 	background-color: transparent;
 	color: #cdcdcd;
-}
-
-.side-nav .social-topo a {
-	font-size: 1.2em;
-	padding: 0;
 }
 
 .side-nav .social-topo a:hover {
