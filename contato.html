@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Efeito Máximo - Web Freela Front-End</title>
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<script src="https://use.fontawesome.com/eaac1c1565.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Original+Surfer|Righteous" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<link rel="stylesheet" href="css/principal.css">
+		<link rel="stylesheet" href="css/principal-mobile.css">
+    <link rel="stylesheet" href="css/contato.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+  <body>
+    <header>
+
+      <nav>
+          <div class="nav-wrapper topo">
+            <a href="#" class="brand-logo">Efeito Máximo<span>web freela</span></a>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down menu">
+              <li class="active"><a href="#"><span class="menu-principal">Principal</span></a></li>
+              <li><a href="#"><span class="menu-principal">Sobre</span></a></li>
+              <li><a href="#"><span class="menu-principal">Blog</span></a></li>
+              <li><a href="#"><span class="menu-principal">Contato</span></a></li>
+              <li class="social-topo"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+              <li class="social-topo"><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+              <li class="social-topo"><a href="#"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+
+            </ul>
+            <ul class="side-nav" id="slide-out">
+              <li>
+                <div class="user-view">
+                <div class="background">
+                  <img src="img/astronauta-background.png">
+                </div>
+                <a href="#!user"><img class="circle" src="img/user.svg"></a>
+                <a href="#!name"><span class="white-text name">André Luis Bonfim</span></a>
+                <a href="#!email"><span class="white-text email">a.bonfim08@gmail.com</span></a>
+                </div>
+              </li>
+              <li><a href="#"><span class="menu-principal">Principal</span></a></li>
+              <li><a href="#"><span class="menu-principal">Sobre</span></a></li>
+              <li><a href="#"><span class="menu-principal">Blog</span></a></li>
+              <li><a href="#"><span class="menu-principal">Contato</span></a></li>
+              <li><div class="divider"></div></li>
+              <li class="social-topo"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+              <li class="social-topo"><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+              <li class="social-topo"><a href="#"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </nav>
+
+    </header>
+
+    <section>
+      <div class="paginacao">
+        <div class="container valign-wrapper">
+          <a href="index.html">Principal</a>
+          <p>|</p>
+          <span>Contato</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container map">
+          <div id="map"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container coluna-texto">
+        <div class="row">
+          <div class="col s5">
+            <h1 class="titulo-principal">Informações de Contato<span class="decoracao-titulo-principal"></span></h1>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque la udantium, totam rem aperiam, eaque ipsa quae ab
+              illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+            </p><br>
+            <ul>
+              <span>
+                <li>The Company Name Inc.</li>
+                <li>9870 St Vincent Place,</li>
+                <li>Glasgow, DC 45 Fr 45.</li>
+              </span>
+            </ul><br>
+            <ul>
+              <li>Telephone: +1 800 603 6035</li>
+              <li>FAX: +1 800 889 9898</li>
+              <li>E-mail: mail@demolink.org</li>
+            </ul>
+          </div>
+          <div class="col s7">
+            <h1 class="titulo-principal">Formulário de Contato<span class="decoracao-titulo-principal"></span></h1>
+						<form id="form1" class="form-contato" action="index.html" method="post">
+							<div class="row">
+								<div class="col s4">
+									<label for="nome">Nome</label>
+									<input id="nome" type="text" pattern="[A-Za-z]{3}" name="nome" class="validate" placeholder="Seu nome" required>
+								</div>
+								<div class="col s4">
+									<label for="email">E-mail</label>
+									<input id="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" name="email" class="validate" placeholder="seuemail@email.com" required>
+								</div>
+								<div class="col s4">
+									<label for="fone">Telefone</label>
+									<input id="fone" type="tel" name="telefone" placeholder="(xx)xxxxx-xxxx" class="validate" required autocomplete="tel">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s12">
+									<label for="msg">Mensagem</label>
+									<textarea id="msg" placeholder="Sua mensagem" class="materialize-textarea" required></textarea>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s12">
+									<button type="submit" form="form1" value="enviar" class="waves-effect waves-light btn btn-bem-vindo">enviar</button>
+								</div>
+							</div>
+						</form>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <footer class="page-footer rodape">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 collection social-rodape">
+                  <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright rodape-copyright">
+            <div class="container">
+            Copyright © 2017 | <a href="#">Efeito Máximo</a> - Desenvolvimento Web Front-End Freelancer
+          </div><br>
+            <div class="container licesed-icons">Icons made by <a href="https://www.iconfinder.com/samatodedara" title="Samato Dedara">Samato Dedara</a>,
+              <a href="https://www.flaticon.com/authors/popcorns-arts"
+              title="Icon Pond">Icon Pond</a>, <a href="https://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a>,
+               <a href="http://www.freepik.com" title="Freepik">Freepik</a> and
+              <a href="https://www.flaticon.com/authors/alfredo-hernandez" title="Alfredo Hernandez">Alfredo Hernandez</a>
+               from <a href="https://www.flaticon.com/" title="Flaticon">flaticon</a> and
+               <a href="https://www.iconfinder.com/" title="Flaticon">iconfinder</a>
+              is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+              title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+            </div>
+          </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPPru0e_MbMuh19eFV9sH4ZSrglXfZuPA&callback=initMap"
+  async defer>
+</script>
+
+    </script>
+  </body>
+</html>

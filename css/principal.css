@@ -1,357 +1,381 @@
-*,
-*:after,
-*:before {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	clear: right;
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.clearfix {
-  clear: both;
+.container .row {
+  padding: 0;
+  margin: 0;
 }
 
 body {
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
- }
-
- main {
-   flex: 1 0 auto;
- }
-
-p {
-		font-size: 1.2em;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
- p, h1, h2, h3, h4, h5, h6 {
- 	color: #555;
- 	line-height: 1.7em;
- }
+main {
+  flex: 1 0 auto;
+}
 
- .row .col.s6.texto-alinhado {
-	 text-align: justify;
-	 padding-right: 12em;
- }
+p {
+  font-size: 1.2em;
+}
 
- .carousel.carousel-slider .carousel-item p {
-	 font-size: 1.2em;
- }
+p, h1, h2, h3, h4, h5, h6 {
+  color: #555;
+  line-height: 1.7em;
+}
 
- .titulo-principal {
-	font-weight: 900;
-	text-transform: uppercase;
-	font-size: 2em;
-	text-align: center;
- }
+.row .col.s6.texto-alinhado {
+  text-align: justify;
+}
+
+.carousel.carousel-slider .carousel-item p {
+  font-size: 1.4em;
+}
+
+.titulo-principal {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+}
 
 .container {
-    width: 100%;
+  width: 100%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .btn {
-	box-shadow: none;
-	text-transform: none;
+  box-shadow: none;
+  text-transform: none;
 }
 
 .btn:hover {
-	box-shadow: none;
+  box-shadow: none;
 }
 
 .descricao-centralizado {
-	text-align: center;
+  text-align: center;
 }
 
 p.descricao-centralizado {
-	font-size: 1.1em;
-	line-height: .1em;
+  font-size: 1.1em;
+  line-height: .1em;
 }
 
 .decoracao-titulo-principal {
-	height: 2px;
-	background-color: #555;
-	display: block;
-	width: 25px;
-	margin: auto;
+  height: 2px;
+  background-color: #555;
+  display: block;
+  width: 25px;
+  margin: auto;
 }
 
+
 /*Menu*/
+
 .topo {
-	background-color: #fff;
+  background-color: #fff;
 }
 
 .topo a {
-	color: #555;
+  color: #555;
 }
 
 .brand-logo {
-	font-family: 'Righteous', cursive;
-	padding-left: .5em !important;
-	bottom: .1em;
+  font-family: 'Righteous', cursive;
+  padding-left: .5em !important;
+  bottom: .1em;
 }
 
 .brand-logo span {
-	font-family: 'Original Surfer', cursive;
-	font-size: 50%;
-	position: relative;
-	top: 1em;
-	left: -5.2em;
+  font-family: 'Original Surfer', cursive;
+  font-size: 50%;
+  position: relative;
+  top: 1em;
+  left: -5.2em;
 }
 
 .menu-principal {
-	padding-right: 2em;
+  padding-right: 2em;
+}
+
+nav {
+  background-color: #fff;
+  box-shadow: 0px 6px 5px #c93328;
+  position: relative;
+  z-index: 1;
 }
 
 nav ul .social-topo a {
-	display: inline-block;
-	font-size: 1.5em;
+  display: inline-block;
+  font-size: 1.5em;
 }
 
 #nav-mobile a:hover {
-		background-color: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
 #nav-mobile .active {
-	background-color: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
 #nav-mobile .social-topo a:hover {
-	background-color: transparent;
-	color: #cdcdcd;
+  background-color: transparent;
+  color: #cdcdcd;
 }
 
 .side-nav .social-topo a:hover {
-	background-color: none;
+  background-color: none;
 }
 
 .side-nav .social-topo a:first-child {
-	margin-left: 32px;
+  margin-left: 32px;
 }
+
 
 /*Apresentação*/
 
 div.carousel.carousel-slider.center.apresentacao.initialized {
-	height: 400px !important;
+  height: 500px !important;
 }
 
 .btn-veja-mais {
-	top: -9em;
-	left: 27.2em;
-	border: 2px solid #fff;
+  top: -12em;
+  right: -38em;
+  left: 35em;
+  border: 2px solid #fff;
 }
 
 .img-carousel {
-	position: relative;
-  left: 13em;
+  max-width: 390px;
+  position: relative;
   top: 1em;
-  max-width: 300px;
+  left: 50%;
+  margin-left: -119px;
 }
 
 .carousel .bangle {
-	position: absolute;
-	left: 0;
-	bottom: -1px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
 }
 
 .carousel.carousel-slider .carousel-item .titulo-carousel {
-	float: left;
-	margin-top: 2.5em;
-	margin-bottom: 0.1em;
-	color: #fff;
-	font-weight: bold;
-	font-size: 2.1em;
-	text-transform: uppercase;
+  float: right;
+  margin-top: 2.5em;
+  margin-bottom: 0.1em;
+  color: #fff;
+  font-weight: bold;
+  font-size: 240%;
+  text-transform: uppercase;
 }
 
 .descricao-carousel {
-	float: left;
+  float: right;
 }
 
 .carousel .indicators {
-    position: relative;
-    left: 29.4em;
-    right: 0;
-    bottom: -14em;
-    margin: 0;
+  position: relative;
+  left: 37em;
+  bottom: -19em;
+  margin: 0;
 }
 
+
 /*Bem-Vindo*/
+
 .welcome {
-	height: 350px;
-	background-color: #fff;
-	color: #555;
+  height: 350px;
+  background-color: #fff;
+  color: #555;
 }
 
 .descricao-bem-vindo {
-	line-height: 1.7em;
+  line-height: 1.7em;
 }
 
 .img-bem-vindo {
-	bottom: -65px;
-	left: 13em;
-	position: relative;
-	max-width: 300px;
+  bottom: -65px;
+  left: 13em;
+  position: relative;
+  max-width: 300px;
 }
 
 .btn-bem-vindo {
-	background-color: #fff;
-	color: #555;
-	border: 2px solid #555;
+  background-color: #fff;
+  color: #555;
+  border: 2px solid #555;
 }
 
 .btn-bem-vindo:hover {
-	color: #fff;
-	background-color: #555;
+  color: #fff;
+  background-color: #555;
 }
 
+
 /*solucoes e Newsletter*/
+
 .barra-horizontal {
-	height: 5em;
-	background-color: #555;
-	text-transform: uppercase;
-	font-size: 150%;
-	padding: 1.5em;
+  height: 5em;
+  background-color: #555;
+  text-transform: uppercase;
+  font-size: 150%;
+  padding: 1.5em;
 }
 
 .barra-horizontal .row {
-	margin-bottom: 0;
+  margin-bottom: -1px;
 }
 
-
 .descricao-barra-horizontal {
-	float: right;
-	color: #fff;
-	font-weight: bold;
-	letter-spacing: .25em;
+  float: right;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: .25em;
 }
 
 .form-barra-horizontal {
-	top: -25px;
+  top: -25px;
 }
 
 .form-barra-horizontal.input-field input[type=email]:not(.browser-default):focus:not([readonly]) {
-	border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #fff;
   -webkit-box-shadow: 0 1px 0 0 #fff;
   box-shadow: 0 1px 0 0 #fff;
-	color: #fff;
+  color: #fff;
 }
 
 html .form-barra-horizontal.input-field {
-	color: rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
 }
 
 .form-barra-horizontal.input-field input[type=email]:not(.browser-default):focus:not([readonly])+label {
-	color: #fff;
+  color: #fff;
 }
 
 .btn-barra-horizontal {
-	border: 2px solid #fff;
-	background-color: #555;
-	color: #fff;
-	float: left;
+  border: 2px solid #fff;
+  background-color: #555;
+  color: #fff;
+  float: left;
 }
+
 .btn-barra-horizontal:hover {
-	background-color: #fff;
-	color: #555;
+  background-color: #fff;
+  color: #555;
 }
 
 .btn-barra-horizontal:active {
-	background-color: #fff;
+  background-color: #fff;
 }
 
+
 /* label color */
- .input-field label {
-	 color: #fff;
- }
+
+.input-field label {
+  color: #fff;
+}
 
 
 /*Blockquote*/
+
 .frases {
-	height: 12em;
   background-color: #5acdd4;
   text-align: center;
-	padding-top: 1.5em;
-	margin: 0;
-	border: 0;
+  padding: 1em;
+  margin: 0;
+  border: 0;
 }
 
 .frases p {
-	color: #fff;
-	font-style: italic;
+  color: #fff;
+  font-style: italic;
 }
 
 .frases span {
-	font-weight: 500;
-	display: block;
+  font-weight: 500;
+  display: block;
 }
 
 .quote {
-	max-width: 50px;
-	margin: auto;
+  max-width: 50px;
+  margin: auto;
 }
 
 .carousel.carousel-slider.citacao.initialized {
-	height: 12em !important;
+  height: 15em !important;
 }
 
+
 /*Portfólio*/
+
 .portfolio {
-	background-color: #fff;
-	height: 500px;
+  background-color: #fff;
+  height: 500px;
 }
 
 .portfolio h5 {
-	text-transform: uppercase;
-	font-weight: 900;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 .portfolio p {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .img-portfolio {
-	max-width: 200px;
-	margin: auto;
+  max-width: 200px;
+  margin: auto;
 }
 
+
 /*Perfil*/
+
 .perfil {
-	height: 380px;
-	background-color: #c57962;
+  height: 380px;
+  background-color: #c57962;
 }
 
 .perfil .descricao-centralizado {
-	color: #fff;
+  color: #fff;
 }
 
 .perfil .decoracao-titulo-principal {
-	background-color: #fff;
+  background-color: #fff;
 }
 
 .img-perfil {
-	max-width: 150px;
-	margin: auto;
+  max-width: 150px;
+  margin: auto;
 }
 
 .img-perfil img {
-	border: 5px solid #fff;
+  border: 5px solid #fff;
 }
 
 .img-perfil a img:hover {
-	border: 10px solid #d09481;
-	transition: all,0.3s cubic-bezier(0.175,0.885,0.32,1.275);
+  border: 10px solid #d09481;
+  transition: all, 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+
 /*Google Maps*/
+
 #map {
   width: 100%;
   height: 400px;
   background-color: grey;
 }
 
+
 /*Rodapé*/
+
 .rodape {
   background-color: #555;
 }
@@ -368,7 +392,7 @@ html .form-barra-horizontal.input-field {
 }
 
 .social-rodape a:hover {
-	color: #fff;
+  color: #fff;
 }
 
 .rodape-copyright {
@@ -376,5 +400,5 @@ html .form-barra-horizontal.input-field {
 }
 
 .licesed-icons {
-	font-size: .75em;
+  font-size: .75em;
 }

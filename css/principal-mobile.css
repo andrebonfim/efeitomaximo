@@ -12,6 +12,11 @@
 	display: none;
 	}
 
+  .carousel .indicators {
+    left: 13em;
+    bottom: 0;
+}
+
   figure.img-carousel {
 		left: 0;
 		margin: 0 auto;
@@ -23,30 +28,29 @@
 		bottom: -79px;
 	}
 
-	.row .col.s6.texto-alinhado {
-		padding-right: 7em;
-	}
-
 }
 
 @media (min-width: 0) and (max-width: 40.875em){
 
-	.carousel.carousel-slider .carousel-item .titulo-carousel, .descricao-carousel {
+  nav .brand-logo {
+    position: relative;
+    margin-left: -50px;
+    left: 50%;
+    font-size: 1.6em;
+}
+
+  .carousel.carousel-slider .carousel-item .titulo-carousel, .descricao-carousel {
 		float: none;
-    margin-left: .5em;
-    margin-right: .5em;
 	}
 
 	.apresentacao .row,
   .welcome .row,
-	.brand-logo span,
-	.nav-wrapper.topo .brand-logo,
 	.carousel .bangle {
 		display: none;
 	}
 
-  .apresentacao {
-      height: auto;
+  div.carousel.carousel-slider.center.apresentacao.initialized {
+      height: 350px !important;
   }
 
 	.carousel-fixed-item .btn-veja-mais {
@@ -81,6 +85,10 @@
   .descricao-bem-vindo {
     padding: 0 1.5em;
     text-align: justify;
+  }
+
+  .carousel.carousel-slider.citacao.initialized {
+    height: 15em !important;
   }
 
   .descricao-barra-horizontal {
