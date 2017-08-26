@@ -14,6 +14,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  font-family: "PT Sans",sans-serif;
 }
 
 main {
@@ -117,6 +118,10 @@ nav ul .social-topo a {
   font-size: 1.5em;
 }
 
+#sidenav-overlay {
+  z-index: 0;
+}
+
 #nav-mobile a:hover {
   background-color: #f4f4f4;
 }
@@ -127,7 +132,45 @@ nav ul .social-topo a {
 
 #nav-mobile .social-topo a:hover {
   background-color: transparent;
-  color: #cdcdcd;
+}
+
+#nav-mobile .fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+#nav-mobile .fa-linkedin-square:hover {
+  color: #007bb6;
+}
+
+#nav-mobile .fa-github-square:hover {
+  color: #000;
+}
+
+.social-topo-menu {
+  display: inline-flex;
+  margin-left: 1em;
+}
+
+#slide-out .fa-facebook-square {
+  color: #3b5998;
+}
+
+#slide-out .fa-linkedin-square {
+  color: #007bb6;
+}
+
+#slide-out .fa-github-square {
+  color: #000;
+}
+
+ul#slide-out.side-nav .social-topo-menu .social-topo a:first-child {
+  margin-left: 15.5px;
+  margin-top: 20px;
+}
+
+ul#slide-out.side-nav .social-topo-menu .social-topo a {
+  padding-left: 0;
+  font-size: 300%;
 }
 
 .side-nav .social-topo a:hover {
@@ -137,7 +180,6 @@ nav ul .social-topo a {
 .side-nav .social-topo a:first-child {
   margin-left: 32px;
 }
-
 
 /*Apresentação*/
 
